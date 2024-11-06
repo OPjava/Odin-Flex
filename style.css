@@ -14,6 +14,7 @@
     width: 100%;
     margin-top: 0;
     padding: 0;
+    height: 20%;
 }
 .sidebar {
     color: white;
@@ -23,6 +24,16 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.one-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo-picture {
+    width: 35px;
+    height: 30px;
+    object-fit: contain;
 }
 .headers-align {
     display: flex;
